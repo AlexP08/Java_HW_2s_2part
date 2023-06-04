@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane prefHeight="700.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.TrainFX.controller.MenuBarController">
+    <top>
+        <MenuBar style="-fx-background-color: C0C0C0" BorderPane.alignment="CENTER">
+            <menus>
+                <Menu mnemonicParsing="false" text="Каталоги">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#handleTrainList" text="Список поездов" />
+                        <MenuItem mnemonicParsing="false" onAction="#handleRouteList" text="Список рейсов" />
+                        <MenuItem mnemonicParsing="false" onAction="#handleClose" text="Закрыть" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </top>
+    <bottom>
+        <Label fx:id="labelInfo" alignment="TOP_LEFT" text="Label" />
+    </bottom>
+    <left>
+        <AnchorPane maxWidth="122.0" prefHeight="653.0" prefWidth="122.0" style="-fx-background-color: C0C0C0;" BorderPane.alignment="CENTER">
+            <children>
+                <Label blendMode="SRC_ATOP" layoutX="-97.0" layoutY="54.0" prefHeight="148.0" prefWidth="241.0" rotate="-90.0" text="Список поездов">
+                    <font>
+                        <Font name="Segoe UI Light" size="56.0" />
+                    </font>
+                </Label>
+                <Label layoutX="-97.0" layoutY="454.0" prefHeight="158.0" prefWidth="241.0" rotate="-90.0" text="Список рейсов">
+                    <font>
+                        <Font name="Segoe UI Light" size="56.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+    </left>
+</BorderPane>

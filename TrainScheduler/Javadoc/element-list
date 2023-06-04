@@ -1,0 +1,11 @@
+com.TrainFX
+com.TrainFX.controller
+com.TrainFX.exception
+com.TrainFX.model
+com.TrainFX.service
+com.TrainFX.utils
+com.trainrest
+com.trainrest.controller
+com.trainrest.model
+com.trainrest.repository
+com.trainrest.utils
